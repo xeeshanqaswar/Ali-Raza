@@ -123,7 +123,7 @@ public class LessonScreen : MonoBehaviour
     }
 
 
-    public async void LaunchButtonListener(bool isFinalLesson)
+    public async void LaunchButtonListener()
     {
 
 

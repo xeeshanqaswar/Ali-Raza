@@ -6,6 +6,7 @@ public class collider : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject popup;
+   public  int num;
 
     // Function called when the player collides with the object
     private void OnTriggerEnter(Collider other)
@@ -14,7 +15,8 @@ public class collider : MonoBehaviour
         // Check if the colliding object is tagged as "Player"
         if (other.CompareTag("Player"))
         {
-            Debug.Log(" THIS IS CALLING FROM HERE ");
+
+            Constants.currentLesson = num + 1;
             // Open the popup if it is not already active
             if (!popup.activeSelf)
             {
