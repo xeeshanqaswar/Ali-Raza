@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a061db6714d9e8043bef74611c3cba45, type: 3}
+  m_Name: NeoDataLocal
+  m_EditorClassIdentifier: 
+  lessons:
+  - name: Overview
+    questions:
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: What is phishing?
+      cameraAngle: 0
+      options:
+      - optionText: A fishing technique
+        correct: 0
+        highlitedPoints: 0
+      - optionText: A type of cyber attack that involves sending fraudulent communications
+        correct: 1
+        highlitedPoints: 0
+      - optionText: ' A computer virus'
+        correct: 1
+        highlitedPoints: 0
+      - optionText: A data analysis method
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: Which of these is a common sign of a phishing email?
+      cameraAngle: 0
+      options:
+      - optionText: ' A familiar sender'
+        correct: 0
+        highlitedPoints: 0
+      - optionText: No spelling mistakes
+        correct: 0
+        highlitedPoints: 0
+      - optionText: ' A sense of urgency'
+        correct: 1
+        highlitedPoints: 0
+      - optionText: All of the above
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: What should you do if you receive a suspicious email from a known
+        contact?
+      cameraAngle: 0
+      options:
+      - optionText: Ignore the email
+        correct: 0
+        highlitedPoints: 0
+      - optionText: ' Contact the sender through a different communication method
+          to verify'
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Reply immediately
+        correct: 1
+        highlitedPoints: 0
+      - optionText: Forward the email to your friends
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: Phishing attacks most commonly target which of the following?
+      cameraAngle: 0
+      options:
+      - optionText: ' Credit card information'
+        correct: 1
+        highlitedPoints: 0
+      - optionText: Personal photos
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Public information
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Unimportant data
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: Which method helps protect against phishing?
+      cameraAngle: 0
+      options:
+      - optionText: Using the same password everywhere
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Frequently updating your software
+        correct: 1
+        highlitedPoints: 0
+      - optionText: Sharing personal details online
+        correct: 0
+        highlitedPoints: 0
+      - optionText: None of the above
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: 'Spear phishing targets:'
+      cameraAngle: 0
+      options:
+      - optionText: No specific individuals
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Computers without antivirus
+        correct: 1
+        highlitedPoints: 0
+      - optionText: ' Large groups of people'
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Specific individuals or companies
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: 'phishing email pretending to be from a reputable company can
+        ask you to:'
+      cameraAngle: 0
+      options:
+      - optionText: ' Confirm personal information'
+        correct: 1
+        highlitedPoints: 0
+      - optionText: ' Visit their official website'
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Share the email with others
+        correct: 0
+        highlitedPoints: 0
+      - optionText: ' All of the above'
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: What feature can help identify phishing websites?
+      cameraAngle: 0
+      options:
+      - optionText: High-quality images
+        correct: 0
+        highlitedPoints: 0
+      - optionText: HTTPS in the URL
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Misspellings in the domain nam
+        correct: 1
+        highlitedPoints: 0
+      - optionText: ' A professional look'
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: Which of these attachments is safest to open?
+      cameraAngle: 0
+      options:
+      - optionText: ' A .txt file'
+        correct: 1
+        highlitedPoints: 0
+      - optionText: ' A .exe file'
+        correct: 0
+        highlitedPoints: 0
+      - optionText: ' A .zip file'
+        correct: 0
+        highlitedPoints: 0
+      - optionText: None of the above
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
+    - type: 8
+      questionname: 1M
+      isConstraint: 0
+      someConstraint: 0
+      enableZoom: 0
+      questionText: How often should you change your passwords to help prevent phishing
+        attacks?
+      cameraAngle: 0
+      options:
+      - optionText: Once a year
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Never
+        correct: 0
+        highlitedPoints: 0
+      - optionText: Every few months
+        correct: 1
+        highlitedPoints: 0
+      - optionText: ' Only after a breach'
+        correct: 0
+        highlitedPoints: 0
+      highlitedPoints: 
+      correctAnswerIndex: 3
+      led: []
+      questionNumber: 0
