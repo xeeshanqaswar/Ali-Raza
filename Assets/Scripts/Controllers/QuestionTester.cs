@@ -29,9 +29,9 @@ public class QuestionTester : MonoBehaviour
     }
     void Start()
     {
-       Loaddata();
+ /*      Loaddata();
         // LoadVersionNumber();
-        LoadVersionNumberFromLocal();
+        LoadVersionNumberFromLocal();*/
         // StartCoroutine(DownloadJSONAndImages());
     }
 
